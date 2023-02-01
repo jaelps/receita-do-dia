@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ }
+
+:root{
+  --Background-da-pagina: #EAEAEA;
+  --Background-da-receita: #FFFFFF;
+  --Títulos-e-subtitulos: #1B1B1B;
+  --Footer-e-legenda-da-imagem: #8F8F8F;
+  --Outros-textos: #39393A;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Roboto', Sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  display: flex;
+}
+
+.fundo{
+  background: var(--Background-da-pagina);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.box-receita{
+  background-color: var(--Background-da-receita);
+  padding: 24px;
+  width: 572px;
+  height: 746px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.titulo{
+  font-family: 'Roboto', Sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  text-align: center;
+  line-height: 42px;
+}
+
+.imagem > img{
+  width: 100%;
+  height: 223px;
+  border-radius: 10px;
+}
+
+.legenda-imagem{
+  font-size: 12px;
+  text-align: right;
+}
+
+.sub-titulo{
+  font-family: 'Roboto', Sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  line-height: 42px;
+}
+
+.list-ingredientes, .list-preparo{
+  margin-left: 26px;
+}
+
+.list-ingredientes > .list-ingredientes-itens{
+  line-height: 26px;
+}
+
+.list-preparo > .list-preparo-itens{
+  line-height: 26px;
+}
+
